@@ -10,7 +10,7 @@ from typing import List, Dict, Union, Any, Generator, Tuple
 
 def gen_outputs(
         dataset: List[Dict[str, Union[str, int]]],
-        func_generate_text: Any) -> Generator[Tuple[int, Dict[str, Any]]]:
+        func_generate_text: Any) -> Generator[Tuple[int, Dict[str, Any]], None, None]:
     """
     Generating outputs one-by-one from the LLM model
     :param dataset: list of dicts, COPA dataset
