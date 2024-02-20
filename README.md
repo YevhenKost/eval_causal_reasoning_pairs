@@ -20,3 +20,6 @@ python run_llms.py
 ### Dataset
 The dataset is [COPA](https://huggingface.co/datasets/pkavumba/balanced-copa/viewer/pkavumba--balanced-copa/train?row=0) dataset with some manual preprocessing and filtering. 
 The format example and dataset itself can be found in [copa-processed-ds.json](copa-processed-ds.json)
+
+### Additional References
+[instruct_pipeline.py](https://huggingface.co/databricks/dolly-v2-12b) was taken from the oficial Databricks page on huggingface.co 
